@@ -1,0 +1,114 @@
+[
+    {
+        "arabic": "ا",
+        "latin": "alif"
+    },
+    {
+        "arabic": "ب",
+        "latin": "ba"
+    },
+    {
+        "arabic": "ت",
+        "latin": "ta"
+    },
+    {
+        "arabic": "ث",
+        "latin": "tsa"
+    },
+    {
+        "arabic": "ج",
+        "latin": "jim"
+    },
+    {
+        "arabic": "ح",
+        "latin": "ha"
+    },
+    {
+        "arabic": "خ",
+        "latin": "kha"
+    },
+    {
+        "arabic": "د",
+        "latin": "dal"
+    },
+    {
+        "arabic": "ذ",
+        "latin": "dzal"
+    },
+    {
+        "arabic": "ر",
+        "latin": "ra"
+    },
+    {
+        "arabic": "ز",
+        "latin": "za"
+    },
+    {
+        "arabic": "س",
+        "latin": "sin"
+    },
+    {
+        "arabic": "ش",
+        "latin": "syin"
+    },
+    {
+        "arabic": "ص",
+        "latin": "shad"
+    },
+    {
+        "arabic": "ض",
+        "latin": "dhad"
+    },
+    {
+        "arabic": "ط",
+        "latin": "tha"
+    },
+    {
+        "arabic": "ظ",
+        "latin": "zha"
+    },
+    {
+        "arabic": "ع",
+        "latin": "ain"
+    },
+    {
+        "arabic": "غ",
+        "latin": "ghain"
+    },
+    {
+        "arabic": "ف",
+        "latin": "fa"
+    },
+    {
+        "arabic": "ق",
+        "latin": "qaf"
+    },
+    {
+        "arabic": "ك",
+        "latin": "kaf"
+    },
+    {
+        "arabic": "ل",
+        "latin": "lam"
+    },
+    {
+        "arabic": "م",
+        "latin": "mim"
+    },
+    {
+        "arabic": "ن",
+        "latin": "nun"
+    },
+    {
+        "arabic": "ه",
+        "latin": "ha"
+    },
+    {
+        "arabic": "و",
+        "latin": "waw"
+    },
+    {
+        "arabic": "ي",
+        "latin": "ya"
+    }
+]
