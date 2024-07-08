@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Hero from "./Hero";
 import Hijaiyah from "./Hijaiyah";
+import Scan from "./Scan";
 
 function App() {
   const navigate = useNavigate()
@@ -18,7 +19,7 @@ function App() {
             <Routes>
               <Route path="/" Component={Hero}/>
               <Route path="/hijaiyah" Component={Hijaiyah}/>
-              <Route path="/scan"/>
+              <Route path="/pindai" Component={Scan}/>
             </Routes>
           </div>
         </div> 

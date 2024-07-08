@@ -24,7 +24,7 @@ export default function Navbar({openDrawer}) {
                 </div>
             </div>
             <div className="navbar-center">
-                <a className="btn btn-ghost text-xl">SoundScan</a>
+                <a className="btn btn-ghost text-xl">Educandy</a>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">
