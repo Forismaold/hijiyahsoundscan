@@ -6,7 +6,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        myprimary: '#1A5319',
+        mysecondary: '#508D4E',
+        mybase: '#D6EFD8',
+        mysecondbase: '#80AF81',
+      },
+  
+    },
   },
   daisyui: {
     themes: ["lemonade"],

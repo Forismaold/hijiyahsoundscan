@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="flex items-center justify-center px-6 py-8 flex-1">
             {/* <div className="flex items-center justify-center w-full  bg-neutral flex-1"> */}
                 <div className="max-w-xl">
-                    <h2 className="text-3xl font-semibold text-secondary-content lg:text-4xl">Belajar Hijaiyah <span className="text-primary">Scan</span></h2>
+                    <h2 className="text-3xl font-semibold text-secondary-content lg:text-4xl">Education Al-Quran for Disabilty</h2>
 
                     <p className="mt-4 text-sm text-secondary-content lg:text-base">Belajar Hijaiyah braille, lebih mudah dengan speaker handphone anda.</p>
 

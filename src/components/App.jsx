@@ -1,12 +1,23 @@
 import { FaStarAndCrescent } from "react-icons/fa";
 import Navbar from "./Navbar";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
 import Hero from "./Hero";
 import Hijaiyah from "./Hijaiyah";
 import Scan from "./Scan";
+import Qrcode from "./Qrcode";
+import { useEffect } from "react";
 
 function App() {
   const navigate = useNavigate()
+  const location = useLocation()
+  useEffect(() => {
+    console.log(location)
+  
+    return () => {
+      
+    }
+  }, [location])
+  
 
   return (
     <div className="h-screen overflow-hidden">
@@ -15,11 +26,12 @@ function App() {
         <div className="drawer-content h-full overflow-hidden flex flex-col">
           {/* Page content here */}
           <Navbar/>
-          <div className="h-full overflow-auto p-4">
+          <div className="h-full overflow-auto text-neutral-200 bg-myprimary">
             <Routes>
               <Route path="/" Component={Hero}/>
               <Route path="/hijaiyah" Component={Hijaiyah}/>
               <Route path="/pindai" Component={Scan}/>
+              <Route path="/qr" Component={Qrcode}/>
             </Routes>
           </div>
         </div> 
@@ -28,8 +40,9 @@ function App() {
           <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             {/* Sidebar content here */}
             <h4 className="px-4 py-2 text-lg font-semibold flex gap-2 items-center rounded-md cursor-pointer active:shadow" onClick={() => navigate('/')}><FaStarAndCrescent /> Hijaiyah</h4>
-            <p className="px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer hover:bg-base-300 duration-100" onClick={() => navigate('/hijaiyah')}>Hijaiyah (kode QR)</p>
-            <p className="px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer hover:bg-base-300 duration-100" onClick={() => navigate('/pindai')}>Pindai</p>
+            <p className={`${location.pathname === '/hijaiyah' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100`} onClick={() => navigate('/hijaiyah')}>Hijaiyah</p>
+            <p className={`${location.pathname === '/pindai' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100`} onClick={() => navigate('/pindai')}>Pindai</p>
+            <p className={`${location.pathname === '/qr' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100`} onClick={() => navigate('/qr')}>Kode QR</p>
           </ul>
         </div>
       </div>
