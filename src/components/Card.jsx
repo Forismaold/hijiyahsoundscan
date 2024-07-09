@@ -1,5 +1,7 @@
 import QRCode from "react-qr-code";
 import useSound from "use-sound";
+import { FaDotCircle } from "react-icons/fa";
+import { FaRegDotCircle } from "react-icons/fa";
 
 export default function Card({item}) {
     const [play] = useSound(`/hijaiyah/${item.latin}.mp3`)
@@ -9,6 +11,7 @@ export default function Card({item}) {
             <button className="btn btn-secondary rounded-xl p-4 place-items-center text-center text-5xl w-full h-full" onClick={play}>{item.arabic}</button>
         </div>
         <div className="card-body flex flex-row justify-between">
+            <Braille cell={item.braille}/>
             <h2 className="card-title">{item.latin}</h2>
             <div className="card-actions flex gap-2 justify-end">
                 <button className="btn btn-primary" onClick={()=>document.getElementById(item.latin).showModal()}>Pindai</button>
@@ -27,5 +30,12 @@ export default function Card({item}) {
             <button>close</button>
         </form>
         </dialog>
+    </div>
+}
+
+function Braille({cell}) {
+
+    return <div className="grid grid-cols-2">
+        {cell.map((x, i) => x ? <FaDotCircle key={i}/> : <FaRegDotCircle key={i}/>)}
     </div>
 }

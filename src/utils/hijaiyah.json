@@ -1,114 +1,147 @@
 [
     {
         "arabic": "ا",
-        "latin": "alif"
+        "latin": "alif",
+        "braille": [1,0,0,0,0,0]
     },
     {
         "arabic": "ب",
-        "latin": "ba"
+        "latin": "ba",
+        "braille": [1,0,1,0,0,0]
     },
     {
         "arabic": "ت",
-        "latin": "ta"
+        "latin": "ta",
+        "braille": [0,1,1,1,1,0]
     },
     {
         "arabic": "ث",
-        "latin": "tsa"
+        "latin": "tsa",
+        "braille": [1,1,0,1,0,1]
     },
     {
         "arabic": "ج",
-        "latin": "jim"
+        "latin": "jim",
+        "braille": [0,1,1,1,0,0]
     },
     {
         "arabic": "ح",
-        "latin": "haa"
+        "latin": "haa",
+        "braille": [1,0,0,1,0,1]
     },
     {
         "arabic": "خ",
-        "latin": "kha"
+        "latin": "kha",
+        "braille": [1,1,0,0,1,1]
     },
     {
         "arabic": "د",
-        "latin": "dal"
+        "latin": "dal",
+        "braille": [1,1,0,1,0,0]
     },
     {
         "arabic": "ذ",
-        "latin": "dzal"
+        "latin": "dzal",
+        "braille": [0,1,1,0,1,1]
     },
     {
         "arabic": "ر",
-        "latin": "ra"
+        "latin": "ra",
+        "braille": [1,0,1,1,1,0]
     },
     {
         "arabic": "ز",
-        "latin": "za"
+        "latin": "za",
+        "braille": [1,0,0,1,1,1]
     },
     {
         "arabic": "س",
-        "latin": "sin"
+        "latin": "sin",
+        "braille": [0,1,1,0,1,0]
     },
     {
         "arabic": "ش",
-        "latin": "syin"
+        "latin": "syin",
+        "braille": [1,1,0,0,0,1]
     },
     {
         "arabic": "ص",
-        "latin": "shad"
+        "latin": "shad",
+        "braille": [1,1,1,0,1,1]
     },
     {
         "arabic": "ض",
-        "latin": "dhad"
+        "latin": "dhad",
+        "braille": [1,1,1,0,0,1]
     },
     {
         "arabic": "ط",
-        "latin": "tha"
+        "latin": "tha",
+        "braille": [0,1,1,1,1,1]
     },
     {
         "arabic": "ظ",
-        "latin": "zha"
+        "latin": "zha",
+        "braille": [1,1,1,1,1,1]
     },
     {
         "arabic": "ع",
-        "latin": "ain"
+        "latin": "ain",
+        "braille": [1,0,1,1,1,1]
     },
     {
         "arabic": "غ",
-        "latin": "ghain"
+        "latin": "ghain",
+        "braille": [1,0,1,0,0,1]
     },
     {
         "arabic": "ف",
-        "latin": "fa"
+        "latin": "fa",
+        "braille": [1,1,1,0,0,0]
     },
     {
         "arabic": "ق",
-        "latin": "qaf"
+        "latin": "qaf",
+        "braille": [1,1,1,1,1,0]
     },
     {
         "arabic": "ك",
-        "latin": "kaf"
+        "latin": "kaf",
+        "braille": [1,0,0,0,1,0]
     },
     {
         "arabic": "ل",
-        "latin": "lam"
+        "latin": "lam",
+        "braille": [1,0,1,0,1,0]
     },
     {
         "arabic": "م",
-        "latin": "mim"
+        "latin": "mim",
+        "braille": [1,1,0,0,1,0]
     },
     {
         "arabic": "ن",
-        "latin": "nun"
-    },
-    {
-        "arabic": "ه",
-        "latin": "ha"
+        "latin": "nun",
+        "braille": [1,1,0,1,1,0]
     },
     {
         "arabic": "و",
-        "latin": "waw"
+        "latin": "waw",
+        "braille": [0,1,1,1,0,1]
+    },
+    {
+        "arabic": "ه",
+        "latin": "ha",
+        "braille": [1,0,1,1,0,0]
+    },
+    {
+        "arabic": "ء",
+        "latin": "hamzah",
+        "braille": [0,0,0,0,1,0]
     },
     {
         "arabic": "ي",
-        "latin": "ya"
+        "latin": "ya",
+        "braille": [0,1,1,0,0,0]
     }
 ]
