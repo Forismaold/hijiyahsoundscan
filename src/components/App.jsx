@@ -5,19 +5,13 @@ import Hero from "./Hero";
 import Hijaiyah from "./Hijaiyah";
 import Scan from "./Scan";
 import Qrcode from "./Qrcode";
-import { useEffect } from "react";
+import { FaBookQuran } from "react-icons/fa6";
+import { IoMdQrScanner } from "react-icons/io";
+import { FaQrcode } from "react-icons/fa6";
 
 function App() {
   const navigate = useNavigate()
   const location = useLocation()
-  useEffect(() => {
-    console.log(location)
-  
-    return () => {
-      
-    }
-  }, [location])
-  
 
   return (
     <div className="h-screen overflow-hidden">
@@ -39,10 +33,10 @@ function App() {
           <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
             {/* Sidebar content here */}
-            <h4 className="px-4 py-2 text-lg font-semibold flex gap-2 items-center rounded-md cursor-pointer active:shadow" onClick={() => navigate('/')}><FaStarAndCrescent /> Hijaiyah</h4>
-            <p className={`${location.pathname === '/hijaiyah' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100`} onClick={() => navigate('/hijaiyah')}>Hijaiyah</p>
-            <p className={`${location.pathname === '/pindai' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100`} onClick={() => navigate('/pindai')}>Pindai</p>
-            <p className={`${location.pathname === '/qr' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100`} onClick={() => navigate('/qr')}>Kode QR</p>
+            <h4 className="px-4 py-2 text-lg font-semibold flex gap-2 items-center rounded-md cursor-pointer active:shadow" onClick={() => navigate('/')}><FaStarAndCrescent /> Educandy</h4>
+            <p className={`${location.pathname === '/hijaiyah' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100 flex gap-2 items-center`} onClick={() => navigate('/hijaiyah')}><FaBookQuran /> Hijaiyah</p>
+            <p className={`${location.pathname === '/pindai' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100 flex gap-2 items-center`} onClick={() => navigate('/pindai')}><IoMdQrScanner /> Pindai</p>
+            <p className={`${location.pathname === '/qr' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100 flex gap-2 items-center`} onClick={() => navigate('/qr')}><FaQrcode /> Kode QR</p>
           </ul>
         </div>
       </div>

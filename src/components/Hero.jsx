@@ -19,7 +19,7 @@ export default function Hero() {
                 </div>
             </div>
 
-            <div className="bg-cover bg-center flex-1 flex relative" style={{'backgroundImage': 'url(https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)'}}>
+            <div className="bg-cover bg-center flex-1 flex relative" style={{'backgroundImage': 'url(https://media.istockphoto.com/id/108351225/id/foto/anak-membaca-braille.jpg?s=1024x1024&w=is&k=20&c=-FHf-1pwMtu0LE5h5rL2-RMHIUR10YpEu5Y0PTt8gU0=)'}}>
                 <div className="absolute inset-0 bg-black opacity-25"/>
             </div>
         </div>
