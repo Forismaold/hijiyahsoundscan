@@ -148,5 +148,45 @@
         "arabic": "ي",
         "latin": "ya",
         "braille": [0,1,1,0,0,0]
+    },
+    {
+        "arabic": "َ",
+        "latin": "fathah",
+        "braille": [0,0,1,0,0,0]
+    },
+    {
+        "arabic": "ِ",
+        "latin": "kasrah",
+        "braille": [1,0,0,1,0,0]
+    },
+    {
+        "arabic": "ُ",
+        "latin": "dammah",
+        "braille": [1,0,0,0,1,1]
+    },
+    {
+        "arabic": "ً",
+        "latin": "fathatain",
+        "braille": [0,0,1,0,1,0]
+    },
+    {
+        "arabic": "ٍ",
+        "latin": "kasratain",
+        "braille": [0,0,0,1,1,0]
+    },
+    {
+        "arabic": "ٌ",
+        "latin": "dammatain",
+        "braille": [0,0,1,0,0,1]
+    },
+    {
+        "arabic": "ّ",
+        "latin": "tasydid",
+        "braille": [0,0,0,0,0,1]
+    },
+    {
+        "arabic": "ْ",
+        "latin": "sukun",
+        "braille": [0,0,1,1,0,0]
     }
 ]
