@@ -30,10 +30,11 @@ export default function Hero() {
                         <p className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-white transition-colors duration-300 transform bg-primary rounded-md hover:bg-gray-700 cursor-pointer" onClick={() => navigate('/pindai')}>Mulai pindai</p>
                         <p className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-neutral transition-colors duration-300 transform bg-base-100 rounded-md lg:mx-4 hover:bg-gray-300 cursor-pointer" onClick={() => navigate('/hijaiyah')}>Hijaiyah braille</p>
                     </div>
+                    <img src="/mengaji.png" alt="mengaji" className="w-28 m-auto"/>
                 </div>
             </div>
 
-            <div className="bg-cover bg-center flex-1 flex relative" style={{'backgroundImage': 'url(https://media.istockphoto.com/id/108351225/id/foto/anak-membaca-braille.jpg?s=1024x1024&w=is&k=20&c=-FHf-1pwMtu0LE5h5rL2-RMHIUR10YpEu5Y0PTt8gU0=)'}}>
+            <div className="bg-cover bg-center flex-1 flex relative min-h-64" style={{'backgroundImage': 'url(https://media.istockphoto.com/id/135167391/id/foto/gadis-muda-eading-braille.jpg?s=1024x1024&w=is&k=20&c=fBSWj2YMMIwkyAJ8v2e4q-IOB0UViqqW7rXUD1f5s0o=)'}}>
                 <div className="absolute inset-0 bg-black opacity-25"/>
             </div>
         </div>
