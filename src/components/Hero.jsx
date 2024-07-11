@@ -19,6 +19,10 @@ export default function Hero() {
             <div className="flex items-center justify-center px-6 py-8 flex-1">
             {/* <div className="flex items-center justify-center w-full  bg-neutral flex-1"> */}
                 <div className="max-w-xl">
+                    <div className="flex items-center justify-center mb-4">
+                        <img src="/android-chrome-192x192.png" alt="icon app" className="w-24" />
+                        <h1 className="font-semibold text-myprimary bordered-text text-5xl -ml-6">Educandy</h1>
+                    </div>
                     <h2 className="text-3xl font-semibold text-secondary-content lg:text-4xl">Education Al-Quran for Disabilty</h2>
                     <p className="mt-4 text-sm text-secondary-content lg:text-base">Belajar Hijaiyah braille, lebih mudah dengan speaker handphone anda.</p>
 

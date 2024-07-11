@@ -14,8 +14,7 @@ export default function Navbar({openDrawer}) {
             </div>
             <div className="flex w-full flex justify-center mr-2">
                 <label htmlFor="my-drawer" className="w-full">
-                    <div className="btn btn-transparent flex gap-2 w-full w-full" role="button" onClick={openDrawer}>
-                        <img src="/favicon-32x32.png" alt="icon app" />
+                    <div className="btn btn-ghost flex gap-2 w-full w-full" role="button" onClick={openDrawer}>
                         <p className="text-xl">EDUCANDY</p>
                     </div>
                 </label>
