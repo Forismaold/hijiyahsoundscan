@@ -1,7 +1,18 @@
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom"
 
 export default function Hero() {
     const navigate = useNavigate()
+    const [isAudioPlay, setIsAudioPlay] = useState(0)
+    useEffect(() => {
+        const audio = new Audio(`/sound/home.mp3`);
+        if (!isAudioPlay) {
+            audio.play();
+        }
+        setIsAudioPlay(1)
+        return () => audio.pause()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
     return <header className="bg-secondary min-h-full flex flex-col">
         <div className="flex flex-col lg:flex-row flex-1">
@@ -9,7 +20,6 @@ export default function Hero() {
             {/* <div className="flex items-center justify-center w-full  bg-neutral flex-1"> */}
                 <div className="max-w-xl">
                     <h2 className="text-3xl font-semibold text-secondary-content lg:text-4xl">Education Al-Quran for Disabilty</h2>
-
                     <p className="mt-4 text-sm text-secondary-content lg:text-base">Belajar Hijaiyah braille, lebih mudah dengan speaker handphone anda.</p>
 
                     <div className="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
