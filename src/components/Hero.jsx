@@ -17,7 +17,6 @@ export default function Hero() {
     return <header className="bg-secondary min-h-full flex flex-col">
         <div className="flex flex-col lg:flex-row flex-1">
             <div className="flex items-center justify-center px-6 py-8 flex-1">
-            {/* <div className="flex items-center justify-center w-full  bg-neutral flex-1"> */}
                 <div className="max-w-xl">
                     <div className="flex items-center justify-center mb-4">
                         <img src="/android-chrome-192x192.png" alt="icon app" className="w-24" />
@@ -31,7 +30,6 @@ export default function Hero() {
                         <p className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-neutral transition-colors duration-300 transform bg-base-100 rounded-md lg:mx-4 hover:bg-gray-300 cursor-pointer" onClick={() => navigate('/hijaiyah')}>Hijaiyah braille</p>
                     </div>
                     <img src="/mengaji.png" alt="mengaji" className="w-28 m-auto"/>
-                    <p>v 1.2</p>
                 </div>
             </div>
 
