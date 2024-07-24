@@ -30,6 +30,7 @@ export default function Hero() {
                         <p className="block px-5 py-2 text-sm font-medium tracking-wider text-center text-neutral transition-colors duration-300 transform bg-base-100 rounded-md lg:mx-4 hover:bg-gray-300 cursor-pointer" onClick={() => navigate('/hijaiyah')}>Hijaiyah braille</p>
                     </div>
                     <img src="/mengaji.png" alt="mengaji" className="w-28 m-auto"/>
+                    <p>add manifest</p>
                 </div>
             </div>
 
