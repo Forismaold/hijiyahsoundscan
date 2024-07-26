@@ -77,5 +77,4 @@ function Scanner() {
     </div>
     <div>Hasil pindai {scanResult || ''}</div>
 </div>
-
 }

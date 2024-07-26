@@ -22,7 +22,7 @@ export default function Card({item}) {
             <h3 className="font-bold text-lg"><span className="bg-secondary p-2 rounded">{item.arabic}</span> {item.latin}</h3>
             <div className="flex place-items-center p-2 justify-center">
                 <button className="btn p-2 rounded bg-base-100 shadow h-fit" onClick={play}>
-                    <QRCode value={item.latin} level="L"/>
+                    <QRCode value={item.latin}/>
                 </button>
             </div>
         </div>

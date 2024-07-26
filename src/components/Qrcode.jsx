@@ -31,7 +31,7 @@ function SimpleCard({item}) {
 
     return <div className="flex place-items-center p-2 justify-center flex-col">
         <button className="btn p-2 rounded bg-base-100 shadow h-fit" onClick={play}>
-            <QRCode value={item.latin} level="L"/>
+            <QRCode value={item.latin}/>
         </button>
         <p>{item.latin}</p>
     </div>
