@@ -66,7 +66,7 @@ export default function Hero() {
           <p>anjat</p>
         </div>
 
-        <footer className="footer bg-neutral text-neutral-content items-center p-4 order-2 lg:order-4 col-span-2">
+        <footer className="footer bg-neutral text-neutral-content items-center p-4 order-2 lg:order-4 lg:col-span-2 gap-y-4">
           <aside className="grid-flow-col items-center">
             <svg
               width="36"
