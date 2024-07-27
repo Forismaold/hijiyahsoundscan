@@ -1,4 +1,4 @@
-import React from 'react'
+// import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client'
 import App from './components/App.jsx'
 import './index.css'
@@ -8,11 +8,11 @@ import { BrowserRouter } from 'react-router-dom';
 import ErrorFallback from './components/ErrorFallback.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  // <StrictMode>
     <ErrorBoundary fallback={<ErrorFallback/>}>
       <BrowserRouter>
         <App />
       </BrowserRouter>
     </ErrorBoundary>
-  </React.StrictMode>,
+  // </StrictMode>,
 )

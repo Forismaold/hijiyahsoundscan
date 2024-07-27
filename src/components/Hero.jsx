@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 export default function Hero() {
   const navigate = useNavigate();
   const [isAudioPlay, setIsAudioPlay] = useState(0);
+
+
+
   useEffect(() => {
     const audio = new Audio(`/sound/home.mp3`);
     if (!isAudioPlay) {
@@ -13,6 +16,7 @@ export default function Hero() {
     return () => audio.pause();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
 
   return (
     <header className="bg-secondary min-h-full flex flex-col">
