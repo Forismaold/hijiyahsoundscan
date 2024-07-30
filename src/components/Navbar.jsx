@@ -15,7 +15,7 @@ export default function Navbar({openDrawer}) {
             <div className="flex w-fit">
                 <div className="dropdown">
                     <div className="btn-circle text-xl">
-                        <img src="/android-chrome-192x192.png" alt="icon app" className="w-24" />
+                        <img src="/unwahas-192x192.png" alt="icon app" className="w-24" />
                     </div>
                 </div>
             </div>
