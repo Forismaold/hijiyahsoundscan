@@ -8,28 +8,12 @@ import Qrcode from "./Qrcode";
 import { FaBookQuran } from "react-icons/fa6";
 import { IoMdQrScanner } from "react-icons/io";
 import { FaQrcode } from "react-icons/fa6";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 
 function App() {
   const navigate = useNavigate()
   const location = useLocation()
-  const toggleSplashRef = useRef(null)
   
-  useEffect(() => {
-    const splashShown = sessionStorage.getItem('splashShown');
-    if (!splashShown) {
-      toggleSplash()
-      sessionStorage.setItem('splashShown', 'true');
-      setTimeout(() => {
-        toggleSplash()
-      }, 2000);
-    }
-  }, []);
-  
-  function toggleSplash() {
-    toggleSplashRef.current.click()
-  }
-
   return (
     <div className="h-screen overflow-hidden">
       <div className="drawer h-full">
@@ -55,15 +39,6 @@ function App() {
             <p className={`${location.pathname === '/pindai' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100 flex gap-2 items-center`} onClick={() => navigate('/pindai')}><IoMdQrScanner /> Pindai</p>
             <p className={`${location.pathname === '/qr' ? 'bg-neutral text-neutral-200' : 'hover:bg-base-300'} px-4 py-2 active:bg-neutral active:text-neutral-content rounded-lg cursor-pointer duration-100 flex gap-2 items-center`} onClick={() => navigate('/qr')}><FaQrcode /> Kode QR</p>
           </ul>
-        </div>
-      </div>
-
-
-      <label htmlFor="splash" className="btn" ref={toggleSplashRef}/>
-      <input type="checkbox" id="splash" className="modal-toggle" />
-      <div className="modal text-neutral-700" role="dialog">
-        <div className="modal-box">
-          <img src="/unwahas-512x512.png" alt="unwahas" />
         </div>
       </div>
 
