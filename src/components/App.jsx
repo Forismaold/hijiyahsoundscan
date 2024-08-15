@@ -8,7 +8,6 @@ import Qrcode from "./Qrcode";
 import { FaBookQuran } from "react-icons/fa6";
 import { IoMdQrScanner } from "react-icons/io";
 import { FaQrcode } from "react-icons/fa6";
-import { useEffect } from "react";
 
 function App() {
   const navigate = useNavigate()
