@@ -36,11 +36,30 @@ export default function Navbar({openDrawer}) {
             <input type="checkbox" id="credits" className="modal-toggle" />
             <div className="modal" role="dialog">
                 <div className="modal-box">
-                    <h3 className="text-lg font-bold">Film Credits</h3>
-                    <p className="py-4">Maulana Choirul Aziz (Owner)</p>
-                    <p className="py-4">Maulana Choirul Aziz</p>
-                    <p className="py-4">Maulana Choirul Aziz</p>
-                    <p className="py-4">Maulana Choirul Aziz</p>
+                    <h3 className="text-lg font-bold">Daftar Peran</h3>
+                    <div className="mb-3 flex flex-col">
+                        <p>Direktur,</p>
+                        <p>Prof. Dr. H. Mahmuratarom HR, SH., MH.</p>
+                    </div>
+                    <p className="mb-3">Tim Penguji:</p>
+                    <div className="mb-3 flex flex-col">
+                        <p>Dr. Hj. Sari Hernawati, S.Ag., M.Pd.</p>
+                        <p>(Ketua/Penguji)</p>
+                    </div>
+                    <div className="mb-3 flex flex-col">
+                        <p>Dr. H. Nur Cholid, M.Ag, M.Pd</p>
+                        <p>(Sekretaris/Penguji)</p>
+                    </div>
+                    <div className="mb-3 flex flex-col">
+                        <p>Dr. Dewi Evita Anita, MA.</p>
+                        <p>(Anggota/Penguji)</p>
+                    </div>
+                    <div className="mb-3 flex flex-col">
+                        <p>Maulana Choirul Aziz S.Pd.I</p>
+                    </div>
+                    <div className="mb-3 flex flex-col">
+                        <p>Sholahuddin Ahmad</p>
+                    </div>
                 </div>
                 <label className="modal-backdrop" htmlFor="credits">Close</label>
             </div>
