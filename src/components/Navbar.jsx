@@ -39,7 +39,7 @@ export default function Navbar({openDrawer}) {
                     <h3 className="text-lg font-bold">Daftar Peran</h3>
                     <div className="mb-3 flex flex-col">
                         <p>Direktur,</p>
-                        <p>Prof. Dr. H. Mahmuratarom HR, SH., MH.</p>
+                        <p>Prof. Dr. H. Mahmutarom HR, SH., MH.</p>
                     </div>
                     <p className="mb-3">Tim Penguji:</p>
                     <div className="mb-3 flex flex-col">
@@ -47,11 +47,11 @@ export default function Navbar({openDrawer}) {
                         <p>(Ketua/Penguji)</p>
                     </div>
                     <div className="mb-3 flex flex-col">
-                        <p>Dr. H. Nur Cholid, M.Ag, M.Pd</p>
+                        <p>Dr. H. Nur Cholid, M.Ag, M.Pd.</p>
                         <p>(Sekretaris/Penguji)</p>
                     </div>
                     <div className="mb-3 flex flex-col">
-                        <p>Dr. Dewi Evita Anita, MA.</p>
+                        <p>Dr. Dewi Evi Anita, MA.</p>
                         <p>(Anggota/Penguji)</p>
                     </div>
                     <div className="mb-3 flex flex-col">
