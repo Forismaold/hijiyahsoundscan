@@ -54,6 +54,7 @@ export default function Navbar({openDrawer}) {
                         <p>Dr. Dewi Evi Anita, MA.</p>
                         <p>(Anggota/Penguji)</p>
                     </div>
+                    <p className="mb-3">Pengembang Aplikasi:</p>
                     <div className="mb-3 flex flex-col">
                         <p>Maulana Choirul Aziz S.Pd.I</p>
                     </div>
