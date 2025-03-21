@@ -23,7 +23,7 @@ export default function Navbar({openDrawer}) {
             <div className="flex w-full justify-center">
                 <label htmlFor="my-drawer" className="w-full">
                     <div className="btn flex gap-2 w-full" role="button" onClick={openDrawer}>
-                        <p className="text-xl">Educandy</p>
+                        <p className="text-xl">EDUCANDY</p>
                     </div>
                 </label>
             </div>
