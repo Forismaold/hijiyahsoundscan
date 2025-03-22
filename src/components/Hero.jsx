@@ -67,7 +67,6 @@ export default function Hero() {
           }}
         >
           <div className="absolute inset-0 bg-black opacity-25"></div>
-          <p>anjat</p>
         </div>
 
         <footer className="footer bg-neutral text-neutral-content items-center p-4 order-2 lg:order-4 lg:col-span-2 gap-y-4">
